@@ -1,0 +1,30 @@
+html,body{
+   
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.bnr-text{
+    animation: sunny 2s infinite;
+}
+@keyframes sunny{
+   0% {opacity: 0;}
+   100%{opacity: 1;}
+  }
+ .ser:hover {
+    background-color:black;
+    color: white;
+  }
+  @media screen and (min-width: 390px) {
+    .bnr-text{
+        font-size: 70px;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .bnr-text{
+        font-size: 140px;
+    }
+  }
+    
+  
